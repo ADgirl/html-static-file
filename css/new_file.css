@@ -1,0 +1,381 @@
+*{margin: 0;padding: 0;}
+/**整体框架**/
+#wrapper{
+	width: 100%;
+	margin: 0 auto;
+	}
+	/**字体设置**/
+a{
+	font-family: "微软雅黑";
+	font-size: 10px;
+	font-family: "	fzlthk";
+	display:inline-block;
+	color: #fff;
+	}
+	
+h1{
+	font-family: "微软雅黑";
+	font-size: 40px;
+	font-weight: normal;
+	}
+h2{
+	font-family: "微软雅黑";
+	font-size: 20px;
+	font-weight: normal;
+	}
+h3{
+	font-family: "微软雅黑";
+	font-size:13px;
+	font-weight: normal;
+}
+h5{
+	font-family: "微软雅黑";
+	font-size: 10px;
+	}
+p{
+	font-family: "微软雅黑";
+	font-size:9px;
+	margin: 0 auto;
+}
+span{font-family: "微软雅黑";
+font-size: 10px;
+}
+.head_styfirst{
+	text-align: center;
+	color:  #1E90FF;
+	padding-top: 45px;
+	}
+.head_stysecond{
+	color: #fff;
+	text-align: center;
+	padding-top: 45px;
+	}
+.head-ins_first{
+	text-align: center;
+	color:  #1E90FF;
+	line-height: 30px;
+	}
+.head-ins_second{
+	
+	font-size:15px;
+	color: #fff;
+	text-align: center;
+	margin-top: 5px;
+	}
+	
+	
+	/**顶部样式**/
+#header{
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	height: 40px;
+	background-color: #2671e1;
+	}
+.H_reset{
+	line-height: 40px;
+	color: #fff;
+	top: 10px;
+	display:inline-block;
+	}
+#header img{
+	float: left;
+	clear: both;
+	margin-right: 30px;
+	position: relative;
+	height: 40px;
+	}
+.H_instruct{
+	display: inline-block;
+	top: 20px;
+	line-height: 40px;
+	float: right;
+	}
+	
+	/**内容样式，模块一到八用c7--c8表示**/
+#content{
+	width: 100%;
+	overflow: hidden;
+	}
+	 
+	/**模块一样式**/
+.c1{
+	width: 100%;
+	background-color: #fff;
+	height: 400px;
+	background-image: url(../image/first.jpg);
+	background-size: 100% 400px;
+	}
+.c1_txt{
+	position:absolute;
+	left: 40%;}	
+.c1_head{
+	color: #0072E4;
+	margin-top: 90px;
+	margin-left: 400px;
+	display: inline-block;
+	
+	}
+.c1_head_ins{
+	margin-left:400px ;
+	font-size: 15px;
+	color:  #1E90FF;
+	}
+.download_btn{
+	width: 120px;
+	height: 20px;
+	background-color: #0000FF;
+	margin-left: 400px;
+	margin-top: 10px;
+	font-family: "微软雅黑";
+	text-align: center;
+	color: #fff;
+	font-size: 10px;
+	padding-top: 5px;
+	
+	}
+.c1_link{
+	font-size: 10px;
+	color:#1E90FF ;
+	margin-left: 475px;
+	margin-top: 5px;
+	}
+	
+	/**模块二样式**/
+.c2{
+	width: 100%;
+	background-color: #f3f3f3;
+	height: 350px;
+	position: relative;
+	overflow: hidden;
+	zoom: 1;
+	}
+
+
+.c2 table{
+	margin:0 auto;
+	margin-top: 20px;
+	
+	height: 210px;
+	overflow: hidden;
+	}
+.c2 tr{
+	width: 520px;
+	height: 210px;
+	}
+.c2 td{
+	list-style:none;
+	background-color: #fff;
+	width: 120px;
+	height: 210px;
+	margin-left: 20px;
+	display: inline-block;
+	margin-top: 0;
+	position:relative;
+	}
+.pic-box{
+	height: 80px;
+	width: 80px;
+	}
+.pic-box img{
+	height: 80px;
+	width: 80px;
+	margin: 10px 20px ;
+	}
+.subtitle{
+	width: 120px;
+	text-align: center;
+	line-height: 10px;
+	margin-bottom: 5px;
+	margin-top: 25px;
+	}
+.subtitle-illus{
+	width: 100px;
+	color: gray;
+	font-size: 10px;
+	margin-left: 7px;
+	}
+	
+	/**模块三样式**/
+.c3{
+	
+	width: 100%;
+	overflow: hidden;
+	height: 400px;
+	background-image: url(../image/three.jpg);
+	background-size:100% 100%;
+	background-color: #fff;
+	
+	}
+
+
+	/**模块四样式**/
+.c4{
+	width: 100%;
+	height: 400px;
+	padding-bottom:30px ;
+	background-color: #fff;
+	}
+
+.c4-pic-box{
+	width: 300px;
+	height:360px;
+	margin: 0 auto;
+	}
+.c4-pic-box img{
+	width: 300px;
+	height: 360px;
+	}
+	
+	/**模块五样式**/
+.c5{
+	width: 100%;
+	height: 380px;
+	background-color: #1E90FF;
+	
+	}
+.c5-pic-box{
+	width: 400px;
+	height: 280px;
+	
+	margin: 0 auto;
+	}
+.c5-pic-box img{
+	width:400px;
+	height: 280px;
+	}
+
+	/**模块六样式 ,cs6里面是四个案例，ex存放图片和文字的整体，ex1存放图片，ex2存放文字**/
+.c6{
+	width: 100%;
+	height: 600px;
+	background-color: #F3F3F3;
+	}
+#example{
+	width: 530px;
+	height: 350px;
+	margin: 0 auto;
+	margin-top: 30px;
+	}
+
+.ex-box{
+	width:530px;
+	height: 80px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	overflow: hidden;
+	}
+.ex-pic{
+	width: 150px;
+	height: 90px;
+	display: inline-block;
+	float: left;
+	}
+.ex-pic img{
+	width: 150px;
+	height: 90px;
+	}
+.ex-txt{
+	width: 350px;
+	height: 70px;
+	padding-top: 20px;
+	padding-left: 20px;
+	background-color: #fff;
+	display: inline-block;
+	float: left;
+	}
+.ex-txt h5{
+	width: 160px;
+	text-align: left;
+	line-height: 15px;
+	}
+.ex-txt p{
+	width: 300px;
+	padding-right:50px;
+	margin-top:5px;
+	color: gray;
+	text-align: left;
+	}
+	
+	/**模块七样式**/
+.c7{
+	width: 100%;
+	height: 400px;
+	background-color: #F3F3F3;
+	position: relative;
+	overflow: hidden;
+	zoom: 1;
+	}
+
+.c7-mainbox{
+		position: relative;
+		padding: 3% 20% 3% 38%;
+		}
+.c7-subbox{
+	margin:0 20px; 
+	float:left;
+	list-style: none;
+	}
+.c7-subbox img{
+	width: 80px;
+	height: 73px;
+	margin-top: 10px;
+	}
+.c7-subbox h5{
+	width: 80px;
+	text-align: center;	
+	margin-top: 5px;
+	}
+	hr{
+		width: 20px;
+		height: 1px;
+		color: #1E90FF;
+		margin:10px 30px;
+		}
+.c7-subbox p{
+	width: 80px;
+	text-align: center;
+	margin-top: 5px;
+	}
+	/**模块八样式**/
+.c8{
+	width: 100%;
+	height: 270px;
+	background-color:#222534;
+	position: relative;
+	overflow: hidden;
+	zoom: 1;
+	}
+
+.c8-mainbox{
+	position: relative;
+	padding: 15px 30%;
+	}
+.c8-subbox-link{
+	padding:0 90px; 
+	float:left;
+	list-style: none;
+	}
+.c8-subbox-link h5{
+	width: 80px;
+	text-align:left;	
+	padding-top: 5px;
+	color:#fff;
+	line-height: 40px;
+	}
+.c8 img{
+	width:50px ;
+	height: 50px;
+}
+	
+	/**底部样式**/
+#footer{
+	width: 100%;
+	height: 40px;
+	background-color: #1a1c28;
+	line-height: 40px;
+	font-family:"微软雅黑";
+	font-size:10px;
+	color:#fff;
+	text-align: center;
+	}
